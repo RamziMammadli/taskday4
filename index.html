@@ -96,6 +96,29 @@
         // console.log()
 
 
+        //6 Substring
+        
+        
+        let text = "alma armud nar goyerti"
+       
+
+        function CustomSubString(text, start, end){
+           
+            let result = ""
+            if(start > end){
+                let number = start
+                start = end
+                end = number
+            }
+
+            for(let i = start; i < end; i++){
+                result +=text[i]
+                
+            } console.log(result);
+        }
+        CustomSubString(text, 8, 5)
+
+
 
 
     </script>
